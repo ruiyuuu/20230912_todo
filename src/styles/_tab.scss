@@ -1,0 +1,22 @@
+ul.bg{
+  background-color: $primary;
+  gap: 24px;
+  li{
+    button.nav-link{
+      background: transparent;
+      border-radius: 0;
+      padding: 12px 32px;
+      font-size: 18px;
+      color: $secondary;
+      text-align: center;
+      font-weight: 400;
+    }
+    button.nav-link.active{
+      background: transparent;
+      border-bottom: 5px solid $secondary;
+      color: $white;
+      font-weight: 500;
+    }
+  }
+
+}

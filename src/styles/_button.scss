@@ -1,0 +1,23 @@
+button.iconBtn{
+  background-color: transparent;
+  border: 0;
+.starMark,
+.penMark,
+.trash{
+    font-size: 24px;
+  }
+}
+
+button.addTask{
+  width: 620px;
+  height: 65px;
+  background-color: $white;
+  border: 1px solid #C8C8C8;
+  color: #C8C8C8;
+  font-size: 20px;
+  text-align: left;
+  i{
+    font-size: 24px;
+    margin-right: 4px;
+  }
+}

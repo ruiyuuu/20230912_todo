@@ -1,0 +1,96 @@
+.accordion-item.taskCard{
+  width: 620px;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 #C8C8C8;
+  background-color: #F2F2F2;
+  overflow: hidden;
+  border: 0;
+
+  button.accordion-button{
+    gap: 12px;
+    padding: 24px 32px;
+    background-color: #F2F2F2;
+    input.form-check-input{
+      min-width: 24px;
+      min-height: 24px;
+    }
+    input.taskTitle{
+      background-color: transparent;
+      border: 0;
+      font-size: 20px;
+      color: $gray-900;
+      font-weight: 700;
+    }
+    h6.taskTitle{
+      font-size: 20px;
+      color: $gray-900;
+      font-weight: 700;
+      margin-bottom: 0;
+    }
+    &:after{
+      content: none;
+    }
+  }
+
+  .taskBody{
+    background-color: #F2F2F2;
+    padding: 24px 72px 48px;
+    .item{
+      h6.title{
+        font-size: 20px;
+        color: $gray-700;
+      }
+      input{
+        border: 0;
+        border-radius: 2px;
+        padding: 8px 16px;
+        vertical-align: baseline;
+        &::placeholder{
+          color: #C8C8C8;
+        }
+      }
+      label{
+        .file{
+          font-size: 24px;
+          color: #C8C8C8;
+        }
+      }
+      .comment{
+        height: 120px;
+      }
+    }
+  }
+  .btns{
+    
+    button.taskBtnSecondary{
+      background-color: $white;
+      border-radius: 0;
+      border: 0;
+      color: $error;
+      height: 60px;
+      flex-grow: 1;
+      font-size: 24px;
+      i.xMark{
+        font-size: 24px;
+        &::before{
+          margin-bottom: 2px;
+        }
+      }
+    }
+    button.taskBtnPrimary{
+      background-color: $primary;
+      border-radius: 0;
+      border: 0;
+      color: $white;
+      height: 60px;
+      flex-grow: 1;
+      font-size: 24px;
+      i.addMark{
+        font-size: 24px;
+        &::before{
+          margin-bottom: 2px;
+        }
+      }
+    }
+  }
+}
